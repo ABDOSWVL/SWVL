@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Roboto&family=Tajawal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SWVL Scripts</title>
+</head>
+<body>
+
+    <nav class="fixed-top navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="btns_box mx-auto">
+
+                <a class="scroll_to" data-link="section1">
+                    <button type="button" class="btn btn-primary">  
+                        greetings
+                    </button>
+                </a>
+
+                <a class="scroll_to" data-link="section2">
+                    <button type="button" class="btn btn-primary">
+                            clousre
+                    </button>
+                </a>
+
+                <a class="scroll_to" data-link="section3">
+                <button type="button" class="btn btn-primary">  
+                        apologies
+                    </button>
+                </a>
+                
+                <a class="scroll_to" data-link="section4">
+                    <button type="button" class="btn btn-primary">
+                        hold
+                    </button>
+                </a>
+
+                <a class="scroll_to" data-link="section5">
+                    <button type="button" class="btn btn-primary">
+                        call
+                    </button>
+                </a>
+
+                <a class="scroll_to" data-link="section6">
+                    <button type="button" class="btn btn-primary">
+                        use app
+                    </button>
+                </a>
+
+                <a class="scroll_to" data-link="section7">
+                    <button type="button" class="btn btn-primary">
+                        missed
+                    </button>
+                </a>
+
+                <a class="scroll_to" data-link="section8">
+                    <button type="button" class="btn btn-primary">
+                        cancelation
+                    </button>
+                </a>
+
+                <a class="scroll_to" data-link="section9">
+                    <button type="button" class="btn btn-primary">
+                        comments
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="lower">
+
+        <div class="container">
+
+            <!--greetings-->
+
+            <div id="section1" class="sections">
+                <table>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Greetings</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id='sample1'>أهلاً وسهلاً بيك يا</p>
+                                    <button href="#" onclick="CopyToClipboard('sample1');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id='sample2'>Hello</p>
+                                    <button href="#" onclick="CopyToClipboard('sample2');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample3">شكراً لتواصلك معنا</p>
+                                    <button href="#" onclick="CopyToClipboard('sample3');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample4">thanks for reaching out</p>
+                                    <button href="#" onclick="CopyToClipboard('sample4');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample5">إزاي أقدر أساعدك ؟</p>
+                                    <button href="#" onclick="CopyToClipboard('sample5');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample6">how may i assist you?</p>
+                                    <button href="#" onclick="CopyToClipboard('sample6');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample7">أهلاً بيك يا فندم</p>
+                                    <button href="#" onclick="CopyToClipboard('sample7');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample8">hello dear</p>
+                                    <button href="#" onclick="CopyToClipboard('sample8');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample9">حضرتك معايا يا فندم ؟</p>
+                                    <button href="#" onclick="CopyToClipboard('sample9');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample10">dear you still with me?</p>
+                                    <button href="#" onclick="CopyToClipboard('sample10');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample010">
+                                        مازلت منتظر ردك
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample010');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample011">
+                                        i'm still waiting your response
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample011');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample11">هل حضرتك ممكن تذكر بمزيد من التفاصيل عن المشكلة التي تواجهك حالياً أو الاستفسار الذي تريد الاستعلام عنه ؟</p>
+                                    <button href="#" onclick="CopyToClipboard('sample11');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample12">Would You Please Mention In More Details The Problem You're Facing Right Now Or The Inquiry You Want To Be Answered?</p>
+                                    <button href="#" onclick="CopyToClipboard('sample12');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+
+            <!--closure-->
+
+            <div id="section2" class="sections">
+                <table>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Closure</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample58">
+                                        عند حضرِتك أي إستفسار آخر أقدر أساعدِك فيه؟
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample58');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample59">
+                                        Any other inquiry I can help you with?
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample59');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample60">
+                                        هل هناك أي شيء آخر أستطيع مساعدتِك به؟
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample60');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample61">
+                                        Do you have any other inquiry I can help you with?
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample61');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample62">
+                                        إذا كان هناك أي إستفسارات أو مساعدة أخرى، برجاء التواصل معنا فنحن يسعدنا دائماً الرد عليها
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample62');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample63">
+                                        We hope to see you always on board, for any inquires we will be more than happy to hear from you again. 
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample63');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample64">
+                                        نحن نقدر دعمك ويرجي العلم ان ما ذكرته سوف يؤخذ في الاعتبار وسوف يتم العمل عليه من جانبنا في المستقبل
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample64');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample65">
+                                        We appreciate your feedback, if you have any further inquiries get back to us we are always here for you.
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample65');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample66">
+                                        شكراً لإستخدامِك سويفل و نتمنى لكِ يوم سعيد
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample66');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample67">
+                                        Thank you for using SWVL and Have a nice day.
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample67');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample68">
+                                        يرجي العلم ان في نهاية تلك المحادثة سوف يظهر لك تقييم عن ادائي كموظف خدمة عملاء وعن مقدار المساعدة التي قدمتها لك خلال المحادثة
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample68');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample69">
+                                        kindly be informed that a survey will be displayed at the end of this conversation to evaluate my performance as a customer service agent
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample69');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+
+            <!--apologies-->
+
+            <div id="section3" class="sections">
+                <table>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">apologies</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample70">
+                                        في البداية بنعتذر لكِ جداً عن ما حدث و بالتأكيد ليس هذا مستوى الخدمة المتوقع تقديمه من خلالنا
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample70');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample71">
+                                        Please accept our sincere apologies for the inconvenience you may have experienced on your trip. At Swvl we take pride in ensuring our customer’s satisfaction.
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample71');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample72">
+                                        برجاء التأكد بإنه سوف يتم أخذ كافة الإجراءات الداخلية لعدم مواجهة هذه المشكلة مرة أخرى
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample72');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample73">
+                                        We assure you that we've taken the proper action to avoid facing this issue again.
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample73');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+
+            <!-- hold-->
+
+            <div id="section4" class="sections">
+                <table>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">hold</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample13" class="btn">أستاذنك أضع المحادثة علي الإنتظار لمدة خمس دقائق لمراجعة تفاصيل الحساب والرحلات والتواصل مع الكابتن؟</p>
+                                    <button href="#" onclick="CopyToClipboard('sample13');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample14">
+                                        Would You Please Let Me Put The Conversation On Hold For 5 Minutes As Maxmuim To Review Account And pervious Trips Details & To Reach The Captain As Well?
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample14');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td >
+                            </tr>
+
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample013">
+                                        يوجد خاصية في التطبيق تساعدك علي الوصول الي المحطة التي تم تحديدها لركوبك لكي تبدا الرحلة وتلك الخاصية تسمي الي المحطة سوف تجدها موجودة في تفاصيل الرحلة لتاكد من وجودك في المكان الصحيح للحين التواصل مع الكابتن
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample013');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample014">
+                                        you can use a tool in the app that helps you to reach your pick up station and this tool called "To Sataion" will be found in the app details to ensure that you're standing in the right location while i'm calling the captin
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample014');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample15">
+                                        أستاذنك أضع المحادثة علي الإنتظار لمدة خمس دقائق لمراجعة تفاصيل الحساب والرحلات السابقة والحالية ؟
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample15');return false;">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td><p id="sample16">
+                                    Would You Please Let Me Put The Conversation On Hold For 5 Minutes As Maxmuim To Review Account And Trip Details ?
+                                </p>
+                                <button href="#" onclick="CopyToClipboard('sample16');return false;">
+                                    <i class="far fa-copy"></i>
+                                </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample17" class="btn"> أستاذنك أضع المحادثة علي الإنتظار لمدة خمس دقائق لحذف الرصيد السالب من علي حسابك؟ </p>
+                                    <button href="#" onclick="CopyToClipboard('sample17');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample18">Would You Please Let Me Put The Conversation On Hold For 5 Minutes As Maxmuim To remove the neagtive balance from your wallet ?</p>
+                                    <button href="#" onclick="CopyToClipboard('sample18');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="ar">
+                                <p id="sample19">
+                                    أستاذنك أضع المحادثة علي الإنتظار لمدة خمس دقائق لتصعيد الشكوي للقسم المختص عن تنظيم الرحلات ومحاسبة الكابتن ؟
+                                </p>
+                                <button href="#" onclick="CopyToClipboard('sample19');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample20">
+                                        Would You Please Let Me Put The Conversation On Hold For 5 Minutes As Maxmuim To Escalte this matter to the concered team ?
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample20');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample21">
+                                        مازلت إراجع تفاصيل الرحلات والحساب أستاذنك مزيد من الأنتظار لمدة خمس دقائق أضافية
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample21');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample22">
+                                        Still reviewing the trips and account details pleaase give me more 5 minutes so i can help you much better
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample22');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample23">
+                                        أشكرك علي الأنتظار وأعتذر علي التاخير في الرد 
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample23');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample24">
+                                        thanks for waiting and sorry for the late reply
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample24');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample25">
+                                        أشكرك علي وقتك وأنتظارك وتفهمك لما حدث 
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample25');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample26">
+                                        thanks for your understanding and your patience
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample26');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+            
+            <!--call-->
+
+            <div id="section5" class="sections">
+                <table>
+                    <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">call</th>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                    <th>AR</th>
+                                    <th>EN</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="ar">
+                                        <p id="sample27">
+                                            هل متاح التواصل مع حضرتك لك أساعدك بشكل أفضل واذكر لك كل التفاصيل ، هل الوقت مناسب للتواصل مع حضرتك ؟
+                                        </p>
+                                        <button href="#" onclick="CopyToClipboard('sample27');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <p id="sample28">
+                                            is it possible to call you to inform you with all the detils you need to know and help you much better ? is this a good time to call you ? 
+                                        </p>    
+                                        <button href="#" onclick="CopyToClipboard('sample28');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td class="ar">
+                                        <p id="sample29">
+                                            ممتاز ، سوف أقوم بالتواصل مع حضرتك خلال العشر دقائق القادمة
+                                        </p>
+                                        <button href="#" onclick="CopyToClipboard('sample29');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <p id="sample30">
+                                            Great, i will call within the next ten minutes
+                                        </p>    
+                                        <button href="#" onclick="CopyToClipboard('sample30');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td class="ar">
+                                        <p id="sample31">
+                                            ممتاز ، سوف أقوم بالتواصل مع حضرتك حالاً 
+                                        </p>
+                                        <button href="#" onclick="CopyToClipboard('sample31');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <p id="sample32">
+                                            Great, i will call right now, give me less than one minute
+                                        </p>    
+                                        <button href="#" onclick="CopyToClipboard('sample32');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td class="ar">
+                                        <p id="sample33">
+                                            حاولت التواصل مع حضرتك لشرح كافة التفاصيل ومساعدتك لكن يبدو أنك غير متاحة حالياً للرد علي تلك المكالمة الهاتفية
+                                        </p>
+                                        <button href="#" onclick="CopyToClipboard('sample33');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <p id="sample34">
+                                            I have tried to call you to inform you with all details but it's seems you're not available right now to pick this call
+                                        </p>    
+                                        <button href="#" onclick="CopyToClipboard('sample34');return false;">
+                                        <i class="far fa-copy"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                    </table>
+                </table>
+            </div>
+
+            <!--Use App-->
+
+            <div id="section6" class="sections">
+                <table>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Use App</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample35">
+                                    بالنسبة لاستخدام التطبيق الامر بسيط ، في البداية تقوم باختيار الواجهة من خانة رايح فين وتقوم بادخال نقطة الركوب التي ترغب الركوب منها
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample35');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample36">
+                                        for using the app it's very simple, at first you should choose the perffered pickup point in "where to" that you want to take the ride from 
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample36');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample35">
+                                        ثم قم باختيار نقطة النزول التي ترغب النزول فيها مع العلم ان التطبيق سوف يقوم تلقائياً باختيار اقرب محطة متاحة لدنيا في سويفل علي خط حالي وقائم في نقطة الركوب والنزول
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample35');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample36">
+                                        then choose the drop off point, and you should know that the app will choose automitacally the nearest stations that exist right now in existed lines in the pick up point and the drop off point as well
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample36');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample37">
+                                        سوف يظهر لك التطبيق المواعيد المتاحة والايام المتاحة لاختيار الرحلة المناسبة لك
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample37');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample38">
+                                        the app will show the avilable times and days so you can choose your perfered trip
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample38');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample39">
+                                        يوجد خاصية في التطبيق تساعدك علي الوصول الي المحطة التي تم تحديدها لركوبك لكي تبدا الرحلة وتلك الخاصية تسمي الي المحطة سوف تجدها موجودة في تفاصيل الرحلة
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample39');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample40">
+                                        you can use a tool in the app that helps you to reach your pick up station and this tool called "To Sataion" will be found in the app details 
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample40');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample41">
+                                        سوق اقوم بارسال لك رابط لفيديو من خلاله يمكنك معرفة كل التفاصيل عن التطبيق وكيفية استخدامه
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample41');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample42">
+                                        I will send you video to watch it that will helps you to know all the details about the app and how to use it 
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample42');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample43">
+                                        https://bit.ly/38Og8hL
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample43');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample44">
+                                        وفي حالة ان التطبيق لم يظهر لك محطات قريبة من مكان التحرك الذي ترغب التحرك منه او نقطة الوصول التي ترغب النزول فيها ، بامكانك ادخال بيانات تلك النقطة 
+                                        في رابط سوف اقوم بارساله لك يتم العمل عليه من قسم تنظيم الرحلات في اسرع وقت
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample44');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample45" class="btn">
+                                        in case the preferred pick up points or the drop off points not found in the app , i can send you a link to submit those points details to be a new stations in future
+                                    </p>    
+                                    <button class="btn" href="#" onclick="CopyToClipboard('sample45');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample441">
+                                        لتكون تلك النقاط محطات جديدة لدينا في سويفل او كذلك لتحديد مواعيد مناسبة لك علي رحلات قائمة لا يوجد بها تلك المواعيد التي ترغب بها
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample441');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample451" class="btn">
+                                        or you can submit new times for existing lines not included in trips schedule.
+                                    </p>    
+                                    <button class="btn" href="#" onclick="CopyToClipboard('sample451');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample46">
+                                        https://bit.ly/3aDTx9M
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample46');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample96">
+                                        بالنسبة لحجز اكثر من مقعدين في نفس الرحلة فان عليك اضافة بطاقة دفع كريديت كارد لكي يكون مسموحاً لك حجز اكثر من مقعدين حيث ان الحد الاقصي للحجز عن طريق الدفع بالكاش هو مقعدين فقط لا غير
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample96');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample97" class="btn">
+                                        for booking seats in the ride you can book two seats only by cash but in case you want to book more than 2 seats in the same ride you have to add credit card 
+                                    </p>    
+                                    <button class="btn" href="#" onclick="CopyToClipboard('sample97');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample98">
+                                        بالنسبة للشنط التي يمكنك حملها خلال الرحلة ، مسموح لك بحمل شنطتين بحجم صغير او متوسط وغير مسموح بحمل الشنط ذات الحجم الكبير لترك مساحة لشنط المسافرين الاخرين في نفس الرحلة 
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample98');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample99" class="btn">
+                                        the allowed bags within the ride , you can carry two bags with the following sizes (small / mendium) bags and the big bags not allowed, to leave more space for other riders bags
+                                    </p>    
+                                    <button class="btn" href="#" onclick="CopyToClipboard('sample99');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample100">
+                                        بالنسبة لالغاء الرحلات ، يمكنك الغاء الرحلة عن طريق الدخول الي الرحلة  التي تريد الغائها وسحب الشاشة من اسفل الي اعلي وبهذا سوف يظهر لك علامة الغاء الرحلة وبالضغط عليها سوف تقوم بالغاء الرحلة
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample100');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample101" class="btn">
+                                        for canceling the ride , you can cancel the ride just by swiping the screen from bottom to up , and a cancellation button will appear and by clicking on it you will cancel the ride
+                                    </p>    
+                                    <button class="btn" href="#" onclick="CopyToClipboard('sample101');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample102">
+                                        لن يتم محاسبة الاطفال في الرحلة الا اذا كان عمر الطفل اكبر من 4 سنين 
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample102');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample103" class="btn">
+                                        the kids will not be charged for the ride unless they are older than 4 years old
+                                    </p>    
+                                    <button class="btn" href="#" onclick="CopyToClipboard('sample103');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+
+            <!--Missed-->
+
+            <div id="section7" class="sections">
+                <table id="missed">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">missed</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample47">
+                                        برجاء الاهتمام بسياسة تفويت الرحلات لدينا حتي لا يتم أضافة اي رسوم اضافية في الرصيد في المستقبل
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample47');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample48">
+                                        unfortunate that we could not have you onboard with us, so we recommend the below tips for a better experience with SWVL, and to avoid any neagtive balance to be added in your wallet
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample48');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample48">
+                                        يرجى العلم إن الكابتن مُلزم بالإنتظار لمدة دقيقة فقط بعد الوصول إلى المحطة المحددة على التطبيق في الرحلات الداخلية، و دقيقتين في رحلات السفر لتقديم أعلى مستوى خدمة و لضمان عدم التأخر على العملاء المنتظرين في المحطات التالية
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample48');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample49" class="btn">
+                                        The captain is binding to wait 1 minute in regular rides and 2 minutes in travel rides.
+                                    </p>    
+                                    <button  class="btn" href="#" onclick="CopyToClipboard('sample49');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample50">
+                                        برجاء الملاحظة أنه بيتم محاسبتِك على الرحلات التي تم تفويتها، و هذا راجع لطبيعة الخدمة المقدمة من سويفل
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample48');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample51">
+                                        When The rider misses a trip, he gets fully charged for the trip.
+                                    </p>    
+                                    <button  href="#" onclick="CopyToClipboard('sample52');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+
+            <!--cancellation-->
+
+            <div id="section8" class="sections">
+                <table>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">cancelation</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample52">
+                                        برجاء الملاحظة أنه يتم محاسبتِك على الرحلات التي تم إلغائها حسب سياسة الإلغاء الموضحة، و هذا راجع لطبيعة الخدمة المقدمة من سويفل ، و هذه سياسة الإلغاء للإطلاع عليها
+    
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample52');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample53">
+                                        Please check our cancellation policy to avoid any extra charge the next time:
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample53');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample54">
+                                        في حالة إلغاء الرحلة في خلال 3 ساعات قبل موعدها بيتم خصم تكلفة الرحلة بشكل كامل
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample54');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample55">
+                                        The ride cancelation in 10 mins from the booking time will be free of charge.
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample55');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar">
+                                    <p id="sample56">
+                                        برجاء العلم إنه في حالة حجز الرحلة خلال آخر 3 ساعات قبل موعدها، يمكن إلغاء الرحلة في خلال 10 دقائق فقط بدون تطبيق أي مصاريف إلغاء
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample56');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sample57">
+                                        Cancellation before 3 hours of the pickup time will be free of charge.
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sample57');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+            
+            <!--comments-->
+
+            <div id="section9" class="sections">
+                <table>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">comments</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample88">
+                                        calling the customer
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample88');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample89">
+                                        calling the captain
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample89');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample90">
+                                        cst saying that captain didn't add change and he gave him EGP and asked him to put the change in the wallet
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample90');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample91">
+                                        called the captain : didn't add change : first trial : no answer
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample91');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample92">
+                                        called the captain : didn't add change : second trial : no answer
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample92');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample93">
+                                        called the captain : didn't add change : third trial : no answer
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample93');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample94">
+                                        Called The Captain : Didn't Add Change : captain agreed
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample94');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="ar" colspan="2">
+                                    <p id="sample95">
+                                        Called The Captain : Didn't Add Change : captain denied
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sample95');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+    
+                        </tbody>
+                    </table>
+                </table>
+            </div>
+
+            <!--
+                <table id="ID">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="2">hold</th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <th>AR</th>
+                                <th>EN</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="ar">
+                                    <p id="sampleNO">
+                                    
+                                    </p>
+                                    <button href="#" onclick="CopyToClipboard('sampleNO');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <p id="sampleNO">
+                                        
+                                    </p>    
+                                    <button href="#" onclick="CopyToClipboard('sampleNO');return false;">
+                                    <i class="far fa-copy"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table>
+            -->
+        
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        function CopyToClipboard(id)
+    {
+        var r = document.createRange();
+        r.selectNode(document.getElementById(id));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(r);
+        document.execCommand('copy');
+        window.getSelection().removeAllRanges();
+    }
+
+    const links = document.querySelectorAll(".scroll_to");
+    links.forEach((item)=>{
+    item.addEventListener("click", ()=>{
+        const xx = document.getElementById(item.getAttribute("data-link"));
+        xx.scrollIntoView({behavior:"smooth", block:"start"})
+        })
+    })
+
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
