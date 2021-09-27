@@ -5,7 +5,7 @@
 
 .ar
 {  
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 .lower
@@ -34,10 +34,14 @@ table
     width: 50%;
     text-align: center;
     border: 1px solid #ccc;
-    text-transform:capitalize;
     padding:10px;
     margin-top: auto;
     vertical-align: middle;
+}
+
+.lower .table td span
+{
+    text-transform: capitalize;
 }
 .lower .table th
 {
@@ -183,4 +187,3 @@ padding:0;
 {
     color:teal;
 }
-
