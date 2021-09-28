@@ -18,6 +18,11 @@ nav .btns_box button
     text-transform:capitalize;
 }
 
+nav .btns_box button
+{
+    margin: 1px;
+}
+
 nav .btns_box button a
 {
     color: white;
